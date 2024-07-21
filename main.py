@@ -1,7 +1,7 @@
 from boardgame import CodenamesBoardGame
 
-def select_game(game_idx):
-    if (game_idx == 0):
+def select_game(boardgame.py):
+    if (boardgame.py == 0):
         keyword_list = ['moon', 'rabbit', 'cell', 'fall', 'tokyo',
                 'spine', 'board', 'force', 'bell', 'mouse',
                 'ambulance', 'slip', 'line', 'triangle', 'card',
@@ -13,7 +13,7 @@ def select_game(game_idx):
             'team_red': ['moon', 'rabbit', 'triangle', 'card', 'death', 'phoenix', 'doctor', 'band'],
         }
 
-    elif (game_idx == 1):
+    elif (boardgame.py == 1):
         keyword_list = ['needle', 'bug', 'press', 'hawk', 'saturn',
                 'jack', 'rome', 'snow', 'concert', 'cast',
                 'shakespeare', 'chick', 'trip', 'canada', 'oil',
